@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="investor">
+    <test name="kredx-test-automation-investor">
+        <classes>
+            <class name="tests.InvestorSignupTest"/>
+            <class name="tests.LoginFlowTest"/>
+            <class name="tests.WalletCreditTest"/>
+            <class name="tests.BuyDealsTest"/>
+        </classes>
+    </test>
+</suite>

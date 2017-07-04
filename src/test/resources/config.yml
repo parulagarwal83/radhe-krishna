@@ -1,0 +1,12 @@
+# update the /src/test/java/setup/Config.java accordingly
+
+browser: chrome
+bring_to_front: false
+maximize: true
+timeout: 30
+waitForFrame: 10000
+node_url: http://localhost:4444/wd/hub
+
+users:
+    tom: passwd
+    bob: passwd
